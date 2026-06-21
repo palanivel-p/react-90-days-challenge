@@ -33,3 +33,12 @@ const numbers = [1, 2, 3, 4];
 const sum = numbers.reduce((acc, curr) => acc + curr, 0);
 
 console.log(sum);
+
+
+// task 
+const number = [1,2,3,4,5];
+const marr = number.map(num=> num*2);
+
+const farr = number.filter(num=> num > 10);
+
+const raar = number.reduce((acc,num)=>acc+num,0);
