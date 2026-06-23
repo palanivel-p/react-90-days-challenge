@@ -14,6 +14,8 @@ function App() {
       <hr />
 
       <ProductCard />
+      <hr />
+
     </div>
   );
 }
